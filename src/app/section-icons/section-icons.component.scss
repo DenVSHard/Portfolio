@@ -1,0 +1,39 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 35px;
+    gap: 42px;
+    width: 100%;
+    z-index: 5;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+    }
+
+    @media (min-width: 1200px) {
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+
+    }
+}
+
+.icon-btn {
+    cursor: pointer;
+    width: 30px;
+
+    &:hover {
+        animation: heartbeat 1.5s ease-in-out infinite both;
+      
+    }
+
+    @media screen and (min-width: 2560px) {
+        width: 58px;
+        height: 58px;
+    }
+}

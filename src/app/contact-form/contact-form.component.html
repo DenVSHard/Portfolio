@@ -1,0 +1,104 @@
+<form #contactForm="ngForm" ngNativeValidate (ngSubmit)="sendMail()">
+  <div class="form-group">
+    <div [ngClass]="
+        inputName.invalid &&(inputName.dirty || inputName.touched)
+          ? 'errorAlert errorInput'
+          : inputName.touched || inputName.dirty
+          ? 'errorAlert successInput'
+          : ''
+      ">
+      <input type="text" id="inputName" name="inputName" class="form-control" required minlength="2"
+        [(ngModel)]="inputData.inputName" #inputName="ngModel" placeholder="Your name" />
+      <img class="alertImg" *ngIf="inputName.invalid && (inputName.dirty || inputName.touched)"
+        src="/assets/img/icons/alert.png" alt="" />
+      <img class="alertImg" *ngIf="inputName.valid && (inputName.dirty || inputName.touched)"
+        src="/assets/img/icons/check.png" alt="" />
+    </div>
+
+    <div *ngIf="inputName.invalid && (inputName.dirty || inputName.touched)" class="alert">
+      <div class="validation-container" *ngIf="inputName.errors?.['required']">
+        <span class="validation-error-msg">Your name is required.</span>
+      </div>
+      <div class="validation-container" *ngIf="inputName.errors?.['minlength']">
+        <span class="validation-error-msg">Name must be at least 2 characters long.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div [ngClass]="
+        inputEmail.invalid && (inputEmail.dirty || inputEmail.touched)
+          ? 'errorAlert errorInput'
+          : inputEmail.touched || inputEmail.dirty
+          ? 'errorAlert successInput'
+          : ''
+      ">
+      <input type="email" id="inputEmail" name="inputEmail" class="form-control" required
+        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" title="Bitte eine gültige E-Mail-Adresse eingeben"
+        [(ngModel)]="inputData.inputEmail" #inputEmail="ngModel" placeholder="Your email" /><img class="alertImg"
+        *ngIf="inputEmail.invalid && (inputEmail.dirty || inputEmail.touched)" src="/assets/img/icons/alert.png"
+        alt="" />
+      <img class="alertImg" *ngIf="inputEmail.valid && (inputEmail.dirty || inputEmail.touched)"
+        src="/assets/img/icons/check.png" alt="" />
+    </div>
+
+    <div *ngIf="inputEmail.invalid && (inputEmail.dirty || inputEmail.touched)" class="alert">
+      <div class="validation-container" *ngIf="inputEmail.errors?.['required']">
+        <span class="validation-error-msg">Your email address is required.</span>
+      </div>
+      <div class="validation-container" *ngIf="inputEmail.errors?.['pattern']">
+        <span class="validation-error-msg">Please enter an email address.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div [ngClass]="
+        inputMessage.invalid && (inputMessage.dirty || inputMessage.touched)
+          ? 'errorAlert errorInput'
+          : inputMessage.touched || inputMessage.dirty
+          ? 'errorAlert successInput'
+          : ''
+      ">
+      <textarea name="inputMessage" id="inputMessage" cols="30" rows="6" class="form-control" required
+        [(ngModel)]="inputData.inputMessage" #inputMessage="ngModel" placeholder="Your message"></textarea>
+
+      <img class="alertImg" *ngIf="
+          inputMessage.invalid && (inputMessage.dirty || inputMessage.touched)
+        " src="/assets/img/icons/alert.png" alt="" />
+      <img class="alertImg" *ngIf="
+          inputMessage.valid && (inputMessage.dirty || inputMessage.touched)
+        " src="/assets/img/icons/check.png" alt="" />
+    </div>
+    <div *ngIf="
+        inputMessage.invalid && (inputMessage.dirty || inputMessage.touched)
+      " class="alert">
+      <div class="validation-container" *ngIf="inputMessage.errors?.['required']">
+        <span class="validation-error-msg">Your message is empty</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group privacy-policy">
+    <input class="check" type="checkbox" id="privacyPolicy" [(ngModel)]="privacyChecked" name="privacyPolicy" #privacyPolicy="ngModel"
+      required />
+    <label for="privacyPolicy">
+      {{ 'policy.text' | translate }}<a [routerLink]="'/privacy-policy'"
+        style="color: #4B47FF; font-weight: bold; text-decoration: none;"
+        onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none';">{{
+        'policy.privacy' | translate }}</a>{{ 'policy.text2'
+      | translate }}
+    </label>
+  </div>
+
+  <div class="btn-container">
+    <button type="submit" [ngStyle]="{
+      'cursor': !contactForm.form.valid || !privacyChecked ? 'not-allowed' : 'pointer',
+      'opacity': !contactForm.form.valid || !privacyChecked ? '0.5' : '1',
+      'background-color': !contactForm.form.valid || !privacyChecked ? 'var(--color-done)' : 'var(--color-hover)'
+    }" [disabled]="!contactForm.form.valid || !privacyChecked">
+      Send message
+    </button>
+  </div>
+</form>
+<app-success-message *ngIf="showSuccess"></app-success-message>

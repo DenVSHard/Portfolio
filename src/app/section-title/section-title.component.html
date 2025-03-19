@@ -1,0 +1,27 @@
+<img class="bg-shape" src="/assets/img/bg/bg1.png" alt="" />
+<div class="fullcontainer">
+  <div class="image-container">
+    <div class="bg-colors-container">
+      <img class="bg-colors" style="margin-left: 3%" src="{{ bgLeft }}" />
+      <img class="bg-colors" style="margin-right: 3%" src="{{ bgRight }}" />
+    </div>
+
+    <img class="titleimage" src="\assets\img\den-big.png" />
+
+  </div>
+
+  <div data-aos="fade-up" data-aos-duration="1000" class="section-title-container">
+    <div class="title-btn-container">
+      <div class="title-container">
+        <div class="title-vertical">{{ 'section.title' | translate }}</div>
+        <div class="title-horizontal">
+          <div class="myname">{{ 'section.name' | translate }}</div>
+          <div class="jobtitle">{{ 'section.job' | translate }}</div>
+        </div>
+      </div>
+      <div class="btn-container margin">
+        <button class="main-btn" (click)="scrollToContact()">{{ 'section.btn' | translate }}</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,124 @@
+.form-group {
+  width: 100%;
+}
+
+form {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  color: white;
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px 25px;
+    background: var(--color-darkbluebg);
+    border: none;
+    outline: 2px solid var(--color-secondary);
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+
+    cursor: pointer;
+
+    &:focus-visible {
+      border: none;
+      outline: 2px solid var(--color-primary);
+      color: white;
+    }
+
+    &:hover {
+      border: none;
+      outline: 2px solid var(--color-primary);
+      color: white;
+    }
+
+    @media screen and (min-width: 2560px) {
+     font-size: 36px;
+    }
+  }
+
+  textarea {
+    padding-right: 50px;
+    resize: none
+  }
+
+}
+
+.validation-container {
+  margin-top: 10px;
+}
+
+.validation-error-msg {
+  width: 100%;
+  margin: 0;
+  color: var(--color-error) !important;
+  font-size: var(--font10);
+  text-align: left;
+}
+
+.errorAlert {
+  display: flex;
+  justify-content: center;
+  width: calc(100% + 25px);
+}
+
+.successAlert {
+  display: flex;
+  justify-content: center;
+  width: calc(100% + 25px);
+}
+
+.errorInput {
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: none;
+    outline: 2px solid var(--color-error) !important;
+    color: white;
+  }
+}
+
+.successInput {
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: none;
+    outline: 2px solid var(--color-done) !important;
+    color: white;
+  }
+}
+
+.alertImg {
+  position: relative;
+  top: 13px;
+  right: 45px;
+  height: 25px;
+  width: 25px;
+}
+
+.successImg {
+  position: relative;
+  top: 13px;
+  right: 45px;
+  height: 25px;
+  width: 25px;
+}
+
+.check {
+  @media screen and (min-width: 2560px) {
+    width: 36px;
+    height: 36px;
+  }
+}

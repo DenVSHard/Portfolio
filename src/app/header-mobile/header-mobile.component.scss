@@ -1,0 +1,32 @@
+.mobileheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 25px;
+  width: calc(100% - 50px);
+  background: var(--color-background);
+  backdrop-filter: blur(32.5px);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+
+  img {
+    cursor: pointer;
+  }
+
+  .zoomIn {
+    animation: 1225ms zoomIn ease-in;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 1;
+  }
+}

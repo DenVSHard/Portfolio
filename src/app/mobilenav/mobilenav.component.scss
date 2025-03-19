@@ -1,0 +1,52 @@
+.mobilemenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+  font-size: var(--font3);
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-backgroundtransparent);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+
+  div {
+    cursor: pointer;
+  }
+}
+
+.fadeIn {
+  animation: displaymenu 125ms 1;
+}
+
+@keyframes displaymenu {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+.fadeOut {
+  animation: hidemenu 125ms 1;
+}
+
+
+@keyframes hidemenu {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}

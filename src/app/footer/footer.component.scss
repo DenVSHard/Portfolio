@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  span {
+    margin-top: 10px;
+  }
+}
+
+.margin {
+  margin-bottom: 35px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  span {
+    font-size: 23px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 50px;
+  }
+}
+
+.moveright {
+  @media (min-width: 1200px) {
+    position: relative;
+    right: 50px;
+  }
+}
+
+.icon-ctn {
+  display: flex;
+  justify-content: flex-end;
+}

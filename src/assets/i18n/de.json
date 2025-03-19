@@ -1,0 +1,57 @@
+{
+  "header": {
+    "about": "Über mich",
+    "skill": "Fähigkeiten",
+    "port": "Portfolio"
+  },
+
+  "about": {
+    "title": "Über mich",
+    "text": "Mein Name ist Denis Weinhardt, ich bin 43 Jahre alt, verheiratet und stolzer Vater von zwei Kindern. Nach vielen Jahren als begeisterter IT-Enthusiast habe ich mich im Jahr 2023 dazu entschieden, meinen Traum zu verwirklichen und meine berufliche Karriere in der IT voranzutreiben. Seit Februar 2023 erweitere ich intensiv mein Wissen und habe meine Umschulung zum Fachinformatiker für Anwendungsentwicklung erfolgreich abgeschlossen.",
+    "career": "Derzeit arbeite ich bei Siemens, einem weltweit führenden Technologieunternehmen. Gleichzeitig absolviere ich ein Zertifizierungsprogramm als Full-Stack-Entwickler, um meine technischen Fähigkeiten weiter zu verbessern und meinen Einstieg in die IT-Branche zu erleichtern.",
+    "career2": "Mein Ziel ist es, moderne und effiziente Softwarelösungen zu entwickeln, die echten Mehrwert schaffen. Dabei bringe ich nicht nur technische Expertise und Kreativität mit, sondern auch Leidenschaft und eine ausgeprägte Lernbereitschaft. Ich freue mich darauf, neue Herausforderungen anzunehmen und die digitale Welt aktiv mitzugestalten!",
+    "search": "Suchen Sie einen Problemlöser? Im Laufe meiner privaten und akademischen IT-Ausbildung habe ich ausgeprägte Fähigkeiten entwickelt, Herausforderungen in verschiedenen technischen Umfeldern zu identifizieren und zu analysieren.",
+    "search2": "Suchen Sie einen Teamplayer? Während meiner Ausbildung habe ich an mehreren gemeinsamen Projekten teilgenommen, in denen ich mein wachsendes Wissen angewendet und praktische Erfahrungen in der Lösung realer IT-Probleme im Team gesammelt habe."
+  },
+
+  "section": {
+    "title": "Ich bin",
+    "name": "Denis Weinhardt",
+    "job": "Fachinformatiker für Anwendungsentwicklung",
+    "btn": "Lass uns reden"
+  },
+
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "text": "Ich habe Erfahrung in der Softwareentwicklung und in der Umsetzung von Projekten mit verschiedenen Technologien und Konzepten.",
+    "btn": "In Kontakt treten"
+  },
+
+  "port": {
+  "text": "Entdecke eine Auswahl meiner Arbeiten hier – Interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen."
+},
+
+"contact": {
+  "title": "Kontakt",
+  "headline": "Haben Sie ein Problem zu lösen?",
+  "text":  "Kontaktieren Sie mich über dieses Formular – ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+  "text2": "Suchen Sie einen Software-Spezialisten? ",
+  "cont": "Treten Sie mit mir in Kontakt!"
+},
+
+"policy": {
+  "privacy": "Datenschutzerklärung",
+  "text": "Ich habe die ",
+  "text2": " gelesen und stimme der Verarbeitung meiner Daten wie dargelegt zu."
+},
+
+"imprint": {
+  "title": "Impressum",
+  "contact": "Kontakt:",
+  "phone": "Tel: +49 (0)151 28828864"
+},
+
+"footer": {
+  "imprint": "Impressum"
+}
+}

@@ -1,0 +1,14 @@
+<div class="line-contact" data-aos="fade-zoom-in-left" data-aos-easing="ease-in" data-aos-delay="1000"></div>
+<h2 data-aos="fade-up" data-aos-duration="1000">{{ 'contact.title' | translate }}</h2>
+<div #contactSection class="contact-container" data-aos="fade-up" data-aos-duration="1000">
+  <div class="contact-text">
+    <h3>{{ 'contact.headline' | translate }}</h3>
+    <p>{{ 'contact.text' | translate }}</p>
+    <p>{{ 'contact.text2' | translate }}<b>{{ 'contact.cont' | translate }}</b></p>
+  </div>
+  <app-contact-form data-aos="fade-up" data-aos-duration="1000"></app-contact-form>
+  <img class="contact-bg-form" src="/assets/img/bg/darkblue-shadow-bottom.png">
+</div>
+<div class="upbtn" (click)="scrollToTop()" data-aos="fade-up" data-aos-duration="1000">
+  <div></div>
+</div>

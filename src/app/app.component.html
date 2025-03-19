@@ -1,0 +1,17 @@
+<app-header class="hidemobile"></app-header>
+<app-header-mobile class="hidedesktop"></app-header-mobile>
+<app-section-title></app-section-title>
+<div class="line-icons" data-aos="fade-zoom-in-left" data-aos-easing="ease-in" data-aos-offset="-100"
+  data-aos-delay="1000"></div>
+<app-section-icons></app-section-icons>
+<div data-aos="fade-up" data-aos-duration="1000" class="scrolldown" (click)="scrollToBottom()">
+  <span>Scroll down</span><img src="/assets/img/icons/arrow-down-line.png" alt="" />
+</div>
+<app-section-about></app-section-about>
+<app-section-skills></app-section-skills>
+<app-section-portfolio></app-section-portfolio>
+<app-section-contact></app-section-contact>
+<app-footer></app-footer>
+<app-imprint [class.slide-in-left]="showImprint && !shutImprint" [class.slide-out-left]="shutImprint && showImprint"
+  *ngIf="showImprint"></app-imprint>
+<router-outlet></router-outlet>

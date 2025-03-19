@@ -1,0 +1,42 @@
+@use "/src/styles.scss";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 100px;
+  width: calc(100% - 200px);
+  background-color: var(--color-darkbluebg);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+.nav-items {
+  display: flex;
+  gap: 29px;
+  font-size: 23px;
+
+  div {
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-primary);
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .nav-items {
+    font-size: 48px;
+    gap: 50px; 
+  }
+
+  nav {
+    padding: 40px 150px; 
+    width: calc(100% - 300px);
+  }
+}

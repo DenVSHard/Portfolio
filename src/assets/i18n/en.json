@@ -1,0 +1,57 @@
+{
+  "header": {
+    "about": "About me",
+    "skill": "Skills",
+    "port": "Portfolio"
+  },
+
+  "about": {
+    "title": "About me",
+    "text": "My name is Denis Weinhardt, I am 43 years old, married, and a proud father of two children. After many years as an enthusiastic IT aficionado, I decided in 2023 to pursue my dream and advance my professional career in IT. Since February 2023, I have been intensively expanding my knowledge and successfully completed my retraining as an IT specialist in application development.",
+    "career": "Currently, I work at Siemens, a globally leading technology company. At the same time, I am completing a certification program as a full-stack developer to further enhance my technical skills and facilitate my transition into an IT career.",
+    "career2": "My goal is to develop modern and efficient software solutions that create real value. In doing so, I bring not only technical expertise and creativity but also passion and a strong willingness to learn. I am excited to take on new challenges and actively shape the digital world!",
+    "search": "Are you seeking a problem solver? Throughout my journey of private and academic IT education, I have developed strong skills in identifying and analyzing challenges in various technical environments.",
+    "search2": "Do you look for a team player? During my training, I participated in several collaborative projects, where I applied my growing knowledge and gained hands-on experience in solving real-world IT problems as part of a team."
+  },
+
+  "section": {
+    "title": "I am",
+    "name": "Denis Weinhardt",
+    "job": "IT Specialist for Application Development",
+    "btn": "Let's talk"
+  },
+
+  "skills": {
+    "title": "My skills",
+    "text": "I have experience in software development and in implementing projects with various technologies and concepts.",
+    "btn": "Get in touch"
+  },
+
+"port": {
+  "text": "Explore a selection of my work here - Interact with projects to see my skills in action."
+},
+
+"contact": {
+  "title": "Contact",
+  "headline": "Got a problem to solve?",
+  "text": "Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.",
+  "text2": "Looking for a Software Specialist? ",
+  "cont": "Get in touch with me!"
+},
+
+"policy": {
+  "privacy": "privacy policy",
+  "text": "I've read the ",
+  "text2": " and agree to the processing of my data as outlined."
+},
+
+"imprint": {
+  "title": "Imprint",
+  "contact": "Contact",
+  "phone": "Phone: +49 (0)151 28828864"
+},
+
+"footer": {
+  "imprint": "Imprint"
+}
+}

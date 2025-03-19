@@ -1,0 +1,14 @@
+<nav>
+    <div class="logo pointer" (click)="scrollToTop()">
+        <div>Deni<span class="second">s</span></div>
+        <div>Weinhardt</div>
+    </div>
+    <div class="nav-items subtitle">
+        <div (click)="scrollToAbout()">{{ 'header.about' | translate }}</div>
+        <div (click)="scrollToSkills()">{{ 'header.skill' | translate }}</div>
+        <div (click)="scrollToPortfolio()">{{ 'header.port' | translate }}</div>
+        <div (click)="switchLanguage('en')">EN</div>
+        <div (click)="switchLanguage('de')">DE</div>
+
+    </div>
+</nav>

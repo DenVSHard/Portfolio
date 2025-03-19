@@ -1,0 +1,26 @@
+<div class="portfolio-item">
+   
+    <img id="portfolioitem{{index}}" (mouseover)="openPortfolioItem(index)" class="portfolio-image fade-in"
+        src="{{ portfolioItem.mainImage }}" alt="{{ portfolioItem['title'] }} image">
+
+
+    <div id="portfolioitemdetail{{index}}" (mouseleave)="closePortfolioItem(index)"
+        class="portfolio-item-detail d-none fade-in"
+        style="background-image: url({{ portfolioItem.backgroundImage }}); background-position: top; background-size: contain; filter: brightness(100%)">
+        <div class="background-container"></div>
+        <div class="btn-container">
+            <a href="{{ portfolioItem.gitLink }}" target="_blank"><button class="secondary-btn">Github</button></a>
+            <a href="{{ portfolioItem.liveLink }}" target="_blank"><button class="tertiary-btn">Live
+                    test</button></a>
+        </div>
+        <div class="infos-container">
+            <h4>{{ portfolioItem.title }}</h4>
+            <p>{{ portfolioItem.description }}</p>
+            <div class="tag-container">
+                <div *ngFor="let tag of portfolioItem.tags; let j = index">{{tag}}
+                    <span *ngIf="j < portfolioItem.tags.length - 1"> |</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

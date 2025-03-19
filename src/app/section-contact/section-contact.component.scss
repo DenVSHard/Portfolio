@@ -1,0 +1,84 @@
+.contact-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0px 100px;
+  }
+}
+
+.contact-text {
+  @media (min-width: 1200px) {
+    padding-top: 25px;
+    width: 50%;
+  }
+}
+
+app-contact-form {
+  @media (min-width: 1200px) {
+    width: 50%;
+  }
+}
+
+.upbtn {
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 25px);
+  cursor: pointer;
+
+  div {
+    background: url("/assets/img/icons/up-btn.png");
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 39px;
+
+    &:hover {
+      background: url("/assets/img/icons/up-btn-green.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &:active {
+      background: url("/assets/img/icons/up-btn.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 90px;
+    width: calc(100% - 100px);
+  }
+
+}
+
+@media screen and (min-width: 2560px) {
+  .upbtn div {
+    width: 64px;
+    height: 64px;
+    background-size: contain;  // Skaliert das Bild auf die neue Größe
+  }
+}
+
+
+.contact-bg-form {
+  position: absolute;
+  bottom: -180px;
+  left: -50px;
+  height: 300px;
+  overflow: hidden;
+  z-index: -1;
+
+  @media (min-width: 1200px) {
+    height: 670px;
+    top: 120px;
+    right: 0px;
+
+  }
+}

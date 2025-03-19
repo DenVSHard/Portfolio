@@ -1,0 +1,17 @@
+<div class="line-portfolio" data-aos="fade-zoom-in-right" data-aos-easing="ease-in" data-aos-offset="100"
+  data-aos-delay="1000"></div>
+<div #portfolioSection class="portfolio-intro-container" data-aos="fade-up" data-aos-duration="1000">
+  <h2 data-aos="fade-up" data-aos-duration="1000">Portfolio</h2>
+  <div>
+    <p>{{ 'port.text' | translate }}</p>
+  </div>
+
+</div>
+
+<div class="portfolio-items-container" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1500">
+  <app-portfolio-item-box *ngFor="let portfolioItem of portfolio; let i = index" [portfolioItem]="portfolioItem"
+    [index]="i"></app-portfolio-item-box>
+</div>
+
+<img class="portfolio-bg-form-top" src="/assets/img/bg/darkblue-shadow-left.png">
+<img class="portfolio-bg-form-bottom" src="/assets/img/bg/blue-shadow-right.png">

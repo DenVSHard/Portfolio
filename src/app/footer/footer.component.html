@@ -1,0 +1,18 @@
+<div #bottomSection class="container hidemobile">
+  <div class="logo hidemobile">
+    <div>Deni<span class="second">s</span></div>
+    <div>Weinhardt</div>
+  </div>
+  <span class="hidemobile pointer underline" [routerLink]="'/imprint'">
+    {{ 'footer.imprint' | translate }}
+  </span>
+
+</div>
+<div class="logo hidedesktop">
+  <div>Deni<span class="second">s</span></div>
+  <div>Weinhardt</div>
+</div>
+<div class="copyright"><span>©</span>Denis Weinhardt<div>{{year | date:"yyyy"}}</div>
+</div>
+<div class="icon-ctn"><app-section-icons></app-section-icons></div>
+<div class="hidedesktop pointer underline" [routerLink]="'/imprint'">{{ 'footer.imprint' | translate }}</div>

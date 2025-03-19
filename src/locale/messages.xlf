@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/section-about/section-about.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6618051928150147309" datatype="html">
+        <source>My name is Denis Weinhardt, I am 43 years old, married, and a proud father of two children. After many years as an enthusiastic IT aficionado, I decided in 2023 to pursue my dream and advance my professional career in IT. Since February 2023, I have been intensively expanding my knowledge and successfully completed my retraining as an IT specialist in application development.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/section-about/section-about.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1629354551138405764" datatype="html">
+        <source>Currently, I work at Siemens, a globally leading technology company. At the same time, I am completing a certification program as a full-stack developer to further enhance my technical skills and facilitate my transition into an IT career.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/section-about/section-about.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8460490701983221281" datatype="html">
+        <source>Are you seeking a problem solver? Throughout my journey of private and academic IT education, I have developed strong skills in identifying and analyzing challenges in various technical environments.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/section-about/section-about.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4968769782702052576" datatype="html">
+        <source>Do you look for a team player? During my training, I participated in several collaborative projects, where I applied my growing knowledge and gained hands-on experience in solving real-world IT problems as part of a team.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/section-about/section-about.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
