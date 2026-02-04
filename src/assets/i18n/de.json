@@ -4,7 +4,6 @@
     "skill": "Fähigkeiten",
     "port": "Portfolio"
   },
-
   "about": {
     "title": "Über mich",
     "text": "Mein Name ist Denis Weinhardt, ich bin 43 Jahre alt, verheiratet und stolzer Vater von zwei Kindern. Nach vielen Jahren als begeisterter IT-Enthusiast habe ich mich im Jahr 2023 dazu entschieden, meinen Traum zu verwirklichen und meine berufliche Karriere in der IT voranzutreiben. Seit Februar 2023 erweitere ich intensiv mein Wissen und habe meine Umschulung zum Fachinformatiker für Anwendungsentwicklung erfolgreich abgeschlossen.",
@@ -13,45 +12,87 @@
     "search": "Suchen Sie einen Problemlöser? Im Laufe meiner privaten und akademischen IT-Ausbildung habe ich ausgeprägte Fähigkeiten entwickelt, Herausforderungen in verschiedenen technischen Umfeldern zu identifizieren und zu analysieren.",
     "search2": "Suchen Sie einen Teamplayer? Während meiner Ausbildung habe ich an mehreren gemeinsamen Projekten teilgenommen, in denen ich mein wachsendes Wissen angewendet und praktische Erfahrungen in der Lösung realer IT-Probleme im Team gesammelt habe."
   },
-
   "section": {
     "title": "Ich bin",
     "name": "Denis Weinhardt",
     "job": "Fachinformatiker für Anwendungsentwicklung",
     "btn": "Lass uns reden"
   },
-
   "skills": {
     "title": "Meine Fähigkeiten",
     "text": "Ich habe Erfahrung in der Softwareentwicklung und in der Umsetzung von Projekten mit verschiedenen Technologien und Konzepten.",
     "btn": "In Kontakt treten"
   },
-
   "port": {
-  "text": "Entdecke eine Auswahl meiner Arbeiten hier – Interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen."
-},
-
-"contact": {
-  "title": "Kontakt",
-  "headline": "Haben Sie ein Problem zu lösen?",
-  "text":  "Kontaktieren Sie mich über dieses Formular – ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
-  "text2": "Suchen Sie einen Software-Spezialisten? ",
-  "cont": "Treten Sie mit mir in Kontakt!"
-},
-
-"policy": {
-  "privacy": "Datenschutzerklärung",
-  "text": "Ich habe die ",
-  "text2": " gelesen und stimme der Verarbeitung meiner Daten wie dargelegt zu."
-},
-
-"imprint": {
-  "title": "Impressum",
-  "contact": "Kontakt:",
-  "phone": "Tel: +49 (0)151 28828864"
-},
-
-"footer": {
-  "imprint": "Impressum"
-}
+    "text": "Entdecke eine Auswahl meiner Arbeiten hier – Interagiere mit den Projekten, um meine Fähigkeiten in Aktion zu sehen."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "headline": "Haben Sie ein Problem zu lösen?",
+    "text": "Kontaktieren Sie mich über dieses Formular – ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+    "text2": "Suchen Sie einen Software-Spezialisten? ",
+    "cont": "Treten Sie mit mir in Kontakt!"
+  },
+  "policy": {
+    "privacy": "Datenschutzerklärung",
+    "text": "Ich habe die ",
+    "text2": " gelesen und stimme der Verarbeitung meiner Daten wie dargelegt zu."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "contact": "Kontakt:",
+    "phone": "Tel: +49 (0)151 28828864"
+  },
+  "footer": {
+    "imprint": "Impressum"
+  },
+  "privacy_policy_page": {
+    "header": {
+      "title": "Datenschutzerklärung",
+      "close": "Schließen"
+    },
+    "sections": {
+      "intro": {
+        "title": "1. Einleitung",
+        "text": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir mit Ihren personenbezogenen Daten auf unserer Portfolio-Website umgehen. Wir behandeln Ihre Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften."
+      },
+      "responsible": {
+        "title": "2. Verantwortliche Stelle",
+        "text": "Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:",
+        "name": "Name: Denis Weinhardt",
+        "address": "Adresse: Meisenweg 5a, 85591 Vaterstetten"
+      },
+      "data_collection": {
+        "title": "3. Erhebung und Verarbeitung von Daten",
+        "text": "Auf dieser Website erheben wir nur die Daten, die notwendig sind, um die Website bereitzustellen und zu optimieren. Wir erheben keine sensiblen Daten wie Gesundheits- oder Finanzdaten.",
+        "list_intro": "Folgende Daten können beim Besuch dieser Website erhoben werden:",
+        "list_items": [
+          "IP-Adresse",
+          "Browsertyp und -version",
+          "Besuchte Seiten auf der Website",
+          "Zeitpunkt des Zugriffs"
+        ]
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "text": "Unsere Website verwendet Cookies, um Ihnen eine bessere Nutzererfahrung zu bieten. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden. Sie können die Verwendung von Cookies in Ihren Browsereinstellungen deaktivieren, beachten Sie jedoch, dass dies die Funktionalität der Website beeinträchtigen kann."
+      },
+      "third_party": {
+        "title": "5. Weitergabe von Daten an Dritte",
+        "text": "Wir geben Ihre Daten nur an Dritte weiter, wenn dies gesetzlich vorgeschrieben oder zur Vertragserfüllung erforderlich ist. Ihre Daten werden nicht zu Werbezwecken an Dritte weitergegeben."
+      },
+      "rights": {
+        "title": "6. Ihre Rechte",
+        "text": "Sie haben das Recht, jederzeit Auskunft über die über Sie gespeicherten Daten zu verlangen, diese zu korrigieren oder zu löschen. Wenn Sie Ihre Einwilligung zur Datenverarbeitung widerrufen möchten, können Sie dies jederzeit tun. Bitte kontaktieren Sie dazu die oben genannte Adresse."
+      },
+      "security": {
+        "title": "7. Sicherheit",
+        "text": "Wir treffen alle notwendigen technischen und organisatorischen Maßnahmen, um Ihre personenbezogenen Daten vor Verlust, Missbrauch oder unbefugtem Zugriff zu schützen. Die Sicherheit der Datenübertragung im Internet kann jedoch niemals vollständig garantiert werden."
+      },
+      "changes": {
+        "title": "8. Änderungen dieser Datenschutzerklärung",
+        "text": "Wir behalten uns das Recht vor, diese Datenschutzerklärung jederzeit zu ändern. Es gilt jeweils die aktuell auf dieser Website veröffentlichte Fassung der Datenschutzerklärung."
+      }
+    }
+  }
 }

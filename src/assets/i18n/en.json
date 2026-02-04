@@ -4,7 +4,6 @@
     "skill": "Skills",
     "port": "Portfolio"
   },
-
   "about": {
     "title": "About me",
     "text": "My name is Denis Weinhardt, I am 43 years old, married, and a proud father of two children. After many years as an enthusiastic IT aficionado, I decided in 2023 to pursue my dream and advance my professional career in IT. Since February 2023, I have been intensively expanding my knowledge and successfully completed my retraining as an IT specialist in application development.",
@@ -13,45 +12,89 @@
     "search": "Are you seeking a problem solver? Throughout my journey of private and academic IT education, I have developed strong skills in identifying and analyzing challenges in various technical environments.",
     "search2": "Do you look for a team player? During my training, I participated in several collaborative projects, where I applied my growing knowledge and gained hands-on experience in solving real-world IT problems as part of a team."
   },
-
   "section": {
     "title": "I am",
     "name": "Denis Weinhardt",
     "job": "IT Specialist for Application Development",
     "btn": "Let's talk"
   },
-
   "skills": {
     "title": "My skills",
     "text": "I have experience in software development and in implementing projects with various technologies and concepts.",
     "btn": "Get in touch"
   },
-
-"port": {
-  "text": "Explore a selection of my work here - Interact with projects to see my skills in action."
-},
-
-"contact": {
-  "title": "Contact",
-  "headline": "Got a problem to solve?",
-  "text": "Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.",
-  "text2": "Looking for a Software Specialist? ",
-  "cont": "Get in touch with me!"
-},
-
-"policy": {
-  "privacy": "privacy policy",
-  "text": "I've read the ",
-  "text2": " and agree to the processing of my data as outlined."
-},
-
-"imprint": {
-  "title": "Imprint",
-  "contact": "Contact",
-  "phone": "Phone: +49 (0)151 28828864"
-},
-
-"footer": {
-  "imprint": "Imprint"
-}
+  "port": {
+    "text": "Explore a selection of my work here - Interact with projects to see my skills in action."
+  },
+  "contact": {
+    "title": "Contact",
+    "headline": "Got a problem to solve?",
+    "text": "Contact me through this form, I am interested in hearing you, knowing your ideas and contributing to your projects with my work.",
+    "text2": "Looking for a Software Specialist? ",
+    "cont": "Get in touch with me!"
+  },
+  "policy": {
+    "privacy": "privacy policy",
+    "text": "I've read the ",
+    "text2": " and agree to the processing of my data as outlined."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "contact": "Contact",
+    "phone": "Phone: +49 (0)151 28828864"
+  },
+  "footer": {
+    "imprint": "Imprint"
+  },
+  "privacy_policy_page": {
+    "header": {
+      "title": "Privacy Policy",
+      "close": "Close"
+    },
+    "sections": {
+      "intro": {
+        "title": "1. Introduction",
+        "text": "We take the protection of your personal data very seriously. This privacy policy informs you about how we handle your personal data on our portfolio website. We treat your data confidentially and in accordance with legal data protection regulations."
+      },
+      "responsible": {
+        "title": "2. Responsible Party",
+        "text": "The responsible party for data processing on this website is:",
+        "name": "Name: Denis Weinhardt",
+        "address": "Address: Meisenweg 5a, 85591 Vaterstetten"
+      },
+      "data_collection": {
+        "title": "3. Collection and Processing of Data",
+        "text": "On this website, we only collect the data necessary to provide and optimize the website. We do not collect sensitive data such as health or financial data.",
+        "list_intro": "The following data may be collected when visiting this website:",
+        "list_items": [
+          "IP address",
+          "Browser type and version",
+          "Pages visited on the website",
+          "Time of access"
+        ]
+      },
+      "cookies": {
+        "title": "4. Cookies",
+        "text": "Our website uses cookies to provide you with a better user experience. Cookies are small text files stored on your device. You can disable the use of cookies in your browser settings, but please note that this may affect the functionality of the website."
+      },
+      "third_party": {
+        "title": "5. Data Sharing with Third Parties",
+        "text": "We only share your data with third parties if this is required by law or necessary for contract fulfillment. Your data will not be shared with third parties for advertising purposes."
+      },
+      "rights": {
+        "title": "6. Your Rights",
+        "text": "You have the right to request information about the data stored about you at any time, to correct it, or to delete it. If you wish to revoke your consent to data processing, you can do so at any time. Please contact the address mentioned above."
+      },
+      "security": {
+        "title": "7. Security",
+        "text": "We take all necessary technical and organizational measures to protect your personal data from loss, misuse, or unauthorized access. However, the security of data transmission over the Internet can never be fully guaranteed."
+      },
+      "sections": {
+        "changes": {
+          "title": "8. Changes to this Privacy Policy",
+          "text": "We reserve the right to amend this privacy policy at any time. The most recent version of the privacy policy published on this website always applies."
+        }
+      }
+    }
+  }
 }

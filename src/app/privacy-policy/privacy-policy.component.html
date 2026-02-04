@@ -10,56 +10,53 @@
 
 <body class="privacy-policy">
     <header>
-        <h2>Privacy Policy</h2>
+        <h2></h2>
         <div>
-            <div class="btn" (click)="navigateToHome()">Close</div>
+            <div class="btn" (click)="navigateToHome()"></div>
         </div>
+        <header>
+            <h2>{{ 'privacy_policy_page.header.title' | translate }}</h2>
+            <div>
+                <div class="btn" (click)="navigateToHome()">
+                    {{ 'privacy_policy_page.header.close' | translate }}
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h1>{{ 'privacy_policy_page.sections.intro.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.intro.text' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.responsible.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.responsible.text' | translate }}</p>
+            <p>{{ 'privacy_policy_page.sections.responsible.name' | translate }}</p>
+            <p>{{ 'privacy_policy_page.sections.responsible.address' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.data_collection.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.data_collection.text' | translate }}</p>
+            <p>{{ 'privacy_policy_page.sections.data_collection.list_intro' | translate }}</p>
+            <ul>
+                <li *ngFor="let item of 'privacy_policy_page.sections.data_collection.list_items' | translate">
+                    {{ item }}
+                </li>
+            </ul>
+
+            <h1>{{ 'privacy_policy_page.sections.cookies.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.cookies.text' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.third_party.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.third_party.text' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.rights.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.rights.text' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.security.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.security.text' | translate }}</p>
+
+            <h1>{{ 'privacy_policy_page.sections.changes.title' | translate }}</h1>
+            <p>{{ 'privacy_policy_page.sections.changes.text' | translate }}</p>
+        </section>
     </header>
-    <section>
-        <h1>1. Introduction</h1>
-        <p>We take the protection of your personal data very seriously. This privacy policy informs you about how we
-            handle your personal data on our portfolio website. We treat your data confidentially and in accordance with
-            legal data protection regulations.</p>
-
-        <h1>2. Responsible Party</h1>
-        <p>The responsible party for data processing on this website is:</p>
-        <p>Name: Denis Weinhardt</p>
-        <p>Address: Meisenweg 5a 85591 Vaterstetten</p>
-
-        <h1>3. Collection and Processing of Data</h1>
-        <p>On this website, we only collect the data necessary to provide and optimize the website. We do not collect
-            sensitive data such as health or financial data.</p>
-        <p>The following data may be collected when visiting this website:</p>
-        <ul>
-            <li>IP address</li>
-            <li>Browser type and version</li>
-            <li>Pages visited on the website</li>
-            <li>Time of access</li>
-        </ul>
-
-        <h1>4. Cookies</h1>
-        <p>Our website uses cookies to provide you with a better user experience. Cookies are small text files stored on
-            your device. You can disable the use of cookies in your browser settings, but please note that this may
-            affect the functionality of the website.</p>
-
-        <h1>5. Data Sharing with Third Parties</h1>
-        <p>We only share your data with third parties if this is required by law or necessary for contract fulfillment.
-            Your data will not be shared with third parties for advertising purposes.</p>
-
-        <h1>6. Your Rights</h1>
-        <p>You have the right to request information about the data stored about you at any time, to correct it, or to
-            delete it. If you wish to revoke your consent to data processing, you can do so at any time. Please contact
-            the address mentioned above.</p>
-
-        <h1>7. Security</h1>
-        <p>We take all necessary technical and organizational measures to protect your personal data from loss, misuse,
-            or unauthorized access. However, the security of data transmission over the Internet can never be fully
-            guaranteed.</p>
-
-        <h1>8. Changes to this Privacy Policy</h1>
-        <p>We reserve the right to amend this privacy policy at any time. The most recent version of the privacy policy
-            published on this website always applies.</p>
-    </section>
 </body>
 
 </html>
