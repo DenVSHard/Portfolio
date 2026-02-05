@@ -21,24 +21,17 @@
   --color-backgroundtransparent: rgba(20, 29, 47, 0.9);
   --color-done: #70e61c;
   --color-error: #e61c40;
-  --font1: 45px;
-  --font2: 32px;
-  --font3: 23px;
-  --font4: 16px;
-  --font5: 14px;
+  --font1: 2rem; 
+  --font2: 2rem;     
+  --font3: 1.45rem; 
+  --font4: 1rem;    
+  --font5: 1rem; 
   --bp-desktop: 1200px;
   --bp-tablet: 768px;
 
-  @media (min-width: 1200px) {
-    --font1: 90px;
-  }
-
-  @media (min-width: 1200px) {
-    --font3: 32px;
-  }
-
-  @media (min-width: 1200px) {
-    --font4: 23px;
+ @media (min-width: 1200px) {
+    --font1: 2rem; 
+    --font3: 2rem;
   }
 }
 
@@ -68,7 +61,7 @@ button {
   font-size: var(--font4);
 
   @media screen and (min-width: 2560px) {
-    font-size: 48px;
+    font-size: 1.5rem;
    }
 }
 
@@ -429,24 +422,24 @@ app-footer {
 
 @media screen and (min-width: 2560px) {
   .pointer {
-    font-size: 48px;
+    font-size: 1.7rem;
   }
 
   .main-btn {
-    font-size: 48px;
+    font-size: 1.5rem;
   }
 
   body {
-    font-size: 48px;
+    font-size: 1.7rem;
   }
 
   .scrolldown span {
-    font-size: 48px;
+    font-size: 1.5rem;
   }
 
   .scrolldown img {
-    width: 48px;
-    height: 48px;
+    width: 2rem;
+    height: 2rem;
     margin-top: 68px;
   }
 }
@@ -657,5 +650,26 @@ app-footer {
 
   100% {
     opacity: 1;
+  }
+}
+
+
+html {
+  font-size: 100%; 
+  transition: font-size 0.3s ease;
+
+  // Tablets
+  @media (min-width: 768px) {
+    font-size: 110%; 
+  }
+
+  // Desktop Monitore (Full HD)
+  @media (min-width: 1440px) {
+    font-size: 120%;
+  }
+
+  // 4K Monitore (Ultra HD)
+  @media (min-width: 2560px) {
+    font-size: 150%; // Alles wird proportional größer
   }
 }

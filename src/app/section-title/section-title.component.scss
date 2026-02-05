@@ -52,7 +52,7 @@
 .title-vertical {
   color: white;
   rotate: -90deg;
-  font-size: 48px;
+  font-size: 2rem;
   margin: -4%;
   margin-left: -8%;
 
@@ -84,40 +84,24 @@
 }
 
 .myname {
-  font-size: 34px;
+  font-size: 2rem;
   font-weight: 700;
   color: white;
   line-height: 120%;
 
   @media (max-width: 389px) {
-    font-size: 23px;
-  }
-
-  @media (max-width: 560px) {
-    font-size: 26px;
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 48px;
+    font-size: 1rem;
   }
 }
 
 .jobtitle {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.2rem;
   color: var(--color-secondary);
   line-height: 120%;
 
   @media (max-width: 389px) {
-    font-size: 20px;
-  }
-
-  @media (max-width: 560px) {
-    font-size: 21px;
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 30px;
+    font-size: 1rem;
   }
 }
 
@@ -224,15 +208,15 @@
   }
 
   .myname {
-    font-size: 64px;
+    font-size: 2.4rem;
   }
 
   .jobtitle {
-    font-size: 48px;
+    font-size: 1.5rem;
   }
 
   .title-vertical {
-    font-size: 68px;
+    font-size: 2.5rem;
   }
 }
 

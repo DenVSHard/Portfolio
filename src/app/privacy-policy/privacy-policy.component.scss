@@ -12,7 +12,7 @@ body {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 2rem;
   margin: 16px;
 
   @media screen and (min-width: 2560px) {
@@ -21,7 +21,7 @@ h2 {
 }
 
 .btn {
-  font-size: 24px;
+  font-size: 1rem;
   position: absolute;
   top: 34px;
   right: 85px;
@@ -32,7 +32,7 @@ h2 {
   }
 
   @media screen and (min-width: 2560px) {
-    font-size: 38px;
+    font-size: 1.2rem;
    }
 }
 
@@ -53,11 +53,11 @@ section {
 
 @media (max-width: 540px) {
   h2 {
-    font-size: 24px;
+    font-size: 2rem;
   }
 
   .btn {
-    font-size: 16px;
+    font-size: 1rem;
     top: 20px;
     right: 36px;
   }
