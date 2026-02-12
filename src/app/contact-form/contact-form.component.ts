@@ -17,7 +17,7 @@ export class ContactFormComponent {
     this.appendFormData(formData, this.inputData);
 
     try {
-      const response = await fetch('http://denis-weinhardt.com/mail/send_mail.php', {
+      const response = await fetch('https://denis-weinhardt.com/mail/send_mail.php', {
         method: 'POST',
         body: formData,
       });

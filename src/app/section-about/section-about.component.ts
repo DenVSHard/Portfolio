@@ -13,18 +13,24 @@ export class SectionAboutComponent implements AfterViewInit, OnDestroy {
   private subscription: Subscription;
   constructor(private scrollService: ScrollService) { }
 
-  ngAfterViewInit() {
-    this.subscription = this.scrollService.scrollToAboutSection$.subscribe(
-      () => {
-        const elementPosition = this.target.nativeElement.offsetTop;
-        const adjustment = 150;
-        window.scrollTo({
-          top: elementPosition - adjustment,
-          behavior: 'smooth',
-        });
-      }
-    );
-  }
+ ngAfterViewInit() {
+  this.subscription = this.scrollService.scrollToAboutSection$.subscribe(() => {
+    
+    setTimeout(() => {
+      const element = this.target.nativeElement;
+      const rect = element.getBoundingClientRect();
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+      const adjustment = 50; 
+      const targetY = rect.top + scrollTop - adjustment;
+
+      window.scrollTo({
+        top: targetY,
+        behavior: 'smooth'
+      });
+    }, 10);
+  });
+}
 
   ngOnDestroy() {
     if (this.subscription) {

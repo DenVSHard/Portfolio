@@ -23,11 +23,11 @@ export class ScrollService {
 
   scrollToContact() {
     this.scrollToContactForm.next();
-    window.scrollTo(0, 3620);
   }
 
   scrollToPortfolio() {
     this.scrollToPortfolioSection.next();
+
   }
 
   scrollToAbout() {
